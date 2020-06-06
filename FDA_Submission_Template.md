@@ -61,14 +61,17 @@
 	* Dense 1, Activation = Sigmoid
 
 ![train](./assets/ModelAcc.png)
+
 ![pr](./assets/P-R.png)
 
 **Final Threshold and Explanation:**
+
 ![f1-thresh](./assets/F1vsThres.png)
+
 - Based on the F1-Score vs Threshold Chart, to balance between the Precision and Recall, the threshold of 0.728 will give the max value of F1-Score. 
 
 ### 4. Databases
-- The databases contains 112,120 X-Ray images. The number of Pneumonia Positive images is only 1430.
+- The databases contains 112,120 X-Ray images. The number of Pneumonia Positive images is only 1430 (1.27%).
 - Therefore, to split the databases for training, I will have to:
   - Obtain all the postive cases of Pneumonia.
   - Divide the positive cases into 80%-20% for the Training and Validation Dataset.
@@ -98,5 +101,7 @@
 - Establish a silver standard of radiologist reading
 
 **Algorithm Performance Standard:**
+
 ![f1-score](./assets/F1-Scores.png)
+
 - The F1-Score should be approximately 0.435 to out-perform the current state-of-the-art method (CheXNet) [https://arxiv.org/pdf/1711.05225.pdf]

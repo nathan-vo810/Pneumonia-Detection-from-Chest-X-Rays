@@ -62,6 +62,8 @@
 
 ![train](./assets/ModelAcc.png)
 
+![auc](./assets/AUC.png)
+
 ![pr](./assets/P-R.png)
 
 **Final Threshold and Explanation:**
